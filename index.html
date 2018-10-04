@@ -4,12 +4,22 @@
 <head>
   <meta charset="utf-8" />
   <title>AR Business Card</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
   <link rel="stylesheet" href="index.css">
+
+  <!-- three.js library -->
+  <script src="vendor/three.min.js"></script>
+  <script src="vendor/stats.min.js"></script>
+
+  <!-- ar.js -->
+  <script src="https://jeromeetienne.github.io/AR.js/three.js/build/ar.min.js"></script>
+  <script>THREEx.ArToolkitContext.baseURL = 'https://jeromeetienne.github.io/AR.js/'</script>
 </head>
 
 <body>
-  <div>AR Business Card</div>
+  <!-- main.js -->
+  <script src="main.js"></script>
 </body>
 
 </html>
